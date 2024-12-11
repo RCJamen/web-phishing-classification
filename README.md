@@ -30,6 +30,13 @@ The dataset used for training the model contains features extracted from both ph
     pip install -r requirements.txt
     ```
 
+## Usage
+
+1. Run the Jupyter notebook:
+    ```bash
+    jupyter notebook analytics.ipynb
+    ```
+
 ## Model Architecture
 This project employs several machine learning classifiers, including Random Forest (RF), Gradient Boosting (GB), K-Nearest Neighbors (KNN), and Gaussian Naive Bayes (GNB). These models are trained to classify websites as either phishing or legitimate based on their URL attributes. Hyperparameter tuning is performed using GridSearchCV to optimize model performance.
 
@@ -41,12 +48,7 @@ The following features are utilized in the classification model:
 - **File Properties**: Characteristics of the file extensions used in the URL.
 - **Parameter Properties**: Analysis of URL parameters for anomalies.
 
-## Usage
 
-2. Run the Jupyter notebook:
-    ```bash
-    jupyter notebook analytics.ipynb
-    ```
 
 ## Model Performance
 The model is evaluated using the following metrics:
